@@ -1,0 +1,131 @@
+header {
+  margin-top: 15px;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+/* Outline for album images */
+
+/* .display-album {
+  margin-top: 160px;
+  margin-left: 0px;
+  height: 170px;
+  width: 170px;
+  border: 1px solid white;
+  border-radius: 3px;
+} */
+
+.image {
+  float: left;
+  border-radius: 5px;
+  margin-left: 8px;
+  margin-right: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.text {
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  display: block;
+}
+
+i {
+  visibility: hidden;
+  color: white;
+  padding-left: 120px;
+  font-size: 2em;
+}
+
+i:hover {
+  cursor: pointer;
+}
+
+
+body {
+  background-color: #00CFFF;
+}
+
+.dropbtn {
+    background-color: #00AAE4;
+    border-radius: 3px;
+    width: 180px;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    margin-left: 5px;
+    margin-top: 7px;
+    border: none;
+    cursor: pointer;
+}
+
+#user-album {
+  border-radius: 5px;
+}
+
+.collection-header {
+    color: grey;
+    text-align: center;
+}
+
+.collection-item.user-list-item {
+    font-size: 12px;
+    text-align: center;
+}
+
+.collection-item.album-list-item {
+    font-size: 10px;
+    text-align: center;
+    color: #00AAE4;
+}
+
+.collection-item.photo-list-item {
+    font-size: 10px;
+    text-align: left;
+    color: white;
+}
+
+
+/* Nicemenu dropdown, source: W3, https://www.w3schools.com/css/css_dropdowns.asp */
+
+/* The container <div> - needed to position the nicemenu content */
+.nicemenu {
+    position: relative;
+    display: inline-block;
+}
+
+/* nicemenu Content (Hidden by Default) */
+.nicemenu-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: 10px;
+}
+
+/* Links inside the nicemenu */
+.nicemenu-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of nicemenu links on hover */
+.nicemenu-content a:hover {background-color: #f1f1f1}
+
+/* Show the nicemenu menu on hover */
+.nicemenu:hover .nicemenu-content {
+    display: block;
+}
+
+/* Change the background color of the nicemenu button when the nicemenu content is shown */
+.nicemenu:hover .dropbtn {
+    background-color: blue;
+}

@@ -3081,7 +3081,7 @@ td, th {
 }
 
 .collection .collection-item.active {
-  background-color: #26a69a;
+  background-color: #0089ec;
   color: #eafaf9;
 }
 
@@ -3093,7 +3093,7 @@ td, th {
   display: block;
   -webkit-transition: .25s;
   transition: .25s;
-  color: #26a69a;
+  color: #0089ec;
 }
 
 .collection a.collection-item:not(.active):hover {

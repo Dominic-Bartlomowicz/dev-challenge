@@ -6,23 +6,39 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
+    <!--Import windows.css-->
+    <link type="text/css" rel="stylesheet" href="css/windows.css" rel="stylesheet">
+    <!--Import fontawesome icons.css-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 
+<header>
+  Album Share!
+</header>
+
 <body>
-<div class="container">
-    <div class="row">
-        <div class="col s12 m4">
-            <ul class="collection with-header" id="user-list">
-                <li class="collection-header"><h4>Users</h4></li>
-            </ul>
-        </div>
-        <div class="col s12 m8">
-            <!--albums-->
+  <!-- <i class="fas fa-long-arrow-alt-left"></i> ? -->
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m4">
+                <ul class="collection with-header" id="user-list">
+                    <li class="collection-header"><h4>Users</h4></li>
+                </ul>
+            </div>
+
+            <div class="nicemenu">
+              <button class="dropbtn" id="user-album">Albums</button>
+                <div class="nicemenu-content" id="album-list"></div>
+            </div>
+
+            <div class="col s12 m8">
+              <ul class="display-album" id="user-photo"></ul>
+                <img class="image">
+                <figcaption class="text" id="photo-list"></figcaption>
+            </div>
         </div>
     </div>
-</div>
-
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="js/materialize.min.js"></script>
